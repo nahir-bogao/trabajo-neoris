@@ -102,15 +102,6 @@ header {
 #nosotros{
     background-color: white  !important;
     color: white;
-    /**background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url(media/nosotros.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;*/
 }
 
 #nosotros .container {
@@ -125,10 +116,6 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
 }
-
-/**#nosotros p{
-    display: none;
-}*/
 
 #nosotros .cardnos {
     background-size: cover;
@@ -150,24 +137,6 @@ header {
     background-size: cover;
     background-position: center center;
 }
-
-/**.cardnos:nth-child(2){
-    background-color: antiquewhite;
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-}
-
-.cardnos:nth-child(3){
-    background-color: antiquewhite;
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-}*/
 
 .cardnos:first-child h3 {
     color: rgb(27, 1, 68);
@@ -283,15 +252,6 @@ header {
     color: white;
     padding-top: 60px;
     padding-bottom: 60px;
-    /**background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url(media/first-card1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;*/
 }
 
 #final h2 {
