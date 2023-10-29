@@ -1,0 +1,69 @@
+.elemento-bloque {
+    display: inline;
+    font-size: 50px;
+    font-weight: lighter; /** grosor peso*/
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-decoration: underline; /** para subrrayar*/
+    text-transform: lowercase; /** todo minuscula,o mayuscula, p poner las primeras 
+    letras en mayuscu*/
+    letter-spacing: 10px; /**mas espacio entre letras*/
+}
+
+.elemento-linea {
+    background-color: aquamarine;
+    display: block;
+}
+.caja {
+    background-color: brown;
+
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+}
+.contenedor > .caja-flex {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+    padding: 30px;
+    margin: 20px;
+}
+
+.fondo {
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    background-image: url(imagenes/fondo);
+    background-position: center;
+    /**background-attachment: fixed; --> fondo fijo*/
+}
+
+.fondo > .caja7 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    /**position: fixed; SE MANTIENE FIJO EN LA PANTALLA*/
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    position: absolute;
+
+    z-index: 2;
+}
+
+.caja {
+    position: sticky;
+    top: 50px;
+    z-index: 2;
+}

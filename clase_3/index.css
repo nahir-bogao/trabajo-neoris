@@ -1,0 +1,78 @@
+* {
+    background-color: darkgrey;
+}
+
+/**h2 {
+    background-color: aliceblue;
+}*/
+
+/**p {
+    background-color: aquamarine;
+}*/
+
+ /**SELECTOR DESCENDENTE, camino para modificar p*/
+ section article p {
+    background-color: yellowgreen;
+}
+section .caja2 {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.caja1{
+    background-color: blue;
+    padding: 10px;
+}
+#contenedor2{
+    background-color: aqua;
+    padding: 10px;
+}
+.contenedor {
+    background-color: rgb(180, 113, 243);
+    padding: 10px;
+}
+
+section .caja3, section .caja4{
+    background-color: brown;
+    padding: 10px;
+}
+
+[href] {
+    font-size: 20px;
+    color: rgb(61, 98, 128);
+}
+[href="index.html"] {
+    color: aliceblue;
+}
+[href$=".php"] {
+    color: blueviolet;
+}
+
+.contenedor > .caja7 > ul > li:first-child {
+    color: blue;
+}
+/** selecciona el ultimo elem de la lista*/
+.contenedor > .caja7 > ul > li:last-child{
+    color: pink;
+}
+
+/** selecciona los impares de la lista y les pone el color*/
+.contenedor > .caja7 > ul > li:nth-child(2n+1){
+    color: rgb(223, 40, 223);
+}
+/** los pares de la lisa*/
+.contenedor > .caja7 > ul > li:nth-child(2n) {
+    color: rgb(255, 18, 65);
+}
+
+/**#contenedor7:hover {
+    background-color: tomato;
+}*/
+
+#contenedor7 > .caja7 > h2:active {
+    color: teal;
+}
+
+#contenedor7 > .caja7 > a.focus{
+    color: black;
+}

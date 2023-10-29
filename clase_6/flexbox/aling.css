@@ -1,0 +1,12 @@
+.elemento{
+    width: 5px;
+}
+/**  para aplicar el align-contenten, debe estar si o si el  flex-wrap: wrap ;*/
+.contenedor {
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.contenedor > h1:nth-child(3) {
+    height: 5px;
+}

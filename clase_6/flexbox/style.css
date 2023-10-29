@@ -1,0 +1,53 @@
+.caja {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fila > .caja {
+    background-color: brown;
+}
+
+.fila-reverse > .caja {
+    background-color: blueviolet;
+}
+
+.columna > .caja {
+    background-color: burlywood;
+}
+
+.columna-reverse > .caja {
+    background-color: cadetblue;
+}
+
+.fila {
+    border: 3px solid brown;
+    display: flex;
+
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+
+    justify-content: flex-end; /**flex-star:cajas para la izq, center: centro, */
+}
+
+.fila-reverse {
+    border: 3px solid blueviolet;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+.columna {
+    border: 3px solid burlywood;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.columna-reverse {
+    border: 3px solid cadetblue;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
